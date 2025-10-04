@@ -1,5 +1,7 @@
 # ❄️ Smart Mini Freezer Monitoring & Control System  
 
+![BLYNK Display](https://github.com/Frendi-X/Smart-Mini-Freezer-Monitoring-Control-System/blob/main/picture/BLYNK%20Display.jpg)  
+
 Proyek ini adalah **sistem monitoring dan pengendalian mini freezer berbasis Arduino & ESP32** yang terhubung ke **Blynk IoT**. Alat ini mampu menjaga suhu freezer tetap stabil, memberikan alarm saat kondisi tidak normal, serta memungkinkan pemantauan jarak jauh melalui aplikasi Blynk.
 Sistem ini merupakan Smart Mini Freezer Monitoring & Control berbasis Arduino dan ESP32 yang dirancang untuk memantau serta mengendalikan suhu freezer secara otomatis maupun melalui simulasi. Arduino berfungsi membaca suhu dari sensor DS18B20, menampilkan informasi pada LCD 16x2, serta mengendalikan kipas dan buzzer berdasarkan ambang batas suhu yang ditentukan. Data kemudian dikirim dalam format JSON melalui komunikasi serial ke ESP32, yang selanjutnya meneruskan informasi tersebut ke platform Blynk IoT agar dapat dipantau secara real-time melalui smartphone.
 

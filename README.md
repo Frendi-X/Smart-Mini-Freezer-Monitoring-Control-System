@@ -38,16 +38,16 @@ Sistem ini merupakan Smart Mini Freezer Monitoring & Control berbasis Arduino da
 
 ## 📐 Wiring Pin
 ### Arduino
-DS18B20 -> Pin 4
-BTN_INC -> Pin 7
-BTN_DEC -> Pin 6
-FAN -> Pin 9
-BUZZER -> Pin 5
-TX (JSON) -> Pin 8 (ke ESP32 RX)
+- DS18B20 -> Pin 4
+- BTN_INC -> Pin 7
+- BTN_DEC -> Pin 6
+- FAN -> Pin 9
+- BUZZER -> Pin 5
+- TX (JSON) -> Pin 8 (ke ESP32 RX)
 ### ESP32
-RX -> Pin 18 (menerima data dari Arduino)
-TX -> Pin 19 (opsional, untuk balasan)
-WiFi -> SSID/PASS sesuai konfigurasi
+- RX -> Pin 18 (menerima data dari Arduino)
+- TX -> Pin 19 (opsional, untuk balasan)
+- WiFi -> SSID/PASS sesuai konfigurasi
 
 ---
 
@@ -84,6 +84,3 @@ Proyek ini bersifat open-source. Silakan digunakan, dimodifikasi, dan dikembangk
 ## 👨‍💻 Author
 Dikembangkan oleh: [Reog Robotic & Robotech Electronics]  
 Lisensi: Open Source (MIT)
-
-## 📐 Wiring Pin
-### Arduino
